@@ -70,11 +70,11 @@
       <h1>🛡 GMS Admin</h1>
       <span class="abadge">SUPERADMIN</span>
     </div>
-    <button class="abtn abtn-gh" onclick="logout()"> Logout</button>
+    <button class="abtn abtn-gh" onclick="logout()">🚪 Logout</button>
   </div>
   <div class="adm-layout">
     <div class="adm-sb" id="adm-sb">
-      <div class="adm-sb-item on" onclick="admGo('dashboard')"><span></span>Dashboard</div>
+      <div class="adm-sb-item on" onclick="admGo('dashboard')"><span>📊</span>Dashboard</div>
       <div class="adm-sb-item" onclick="admGo('users')"><span>👥</span>User Registry</div>
       <div class="adm-sb-item" onclick="admGo('wallet')"><span>💎</span>GMS Wallet</div>
       <div class="adm-sb-item" onclick="admGo('transactions')"><span>💰</span>Transactions</div>
@@ -119,8 +119,8 @@
           <div class="wallet-bal" id="w-balance">$0.00</div>
           <div class="wallet-sub" id="w-sub">From 0 completed transactions · $0.00 transferred out</div>
           <div class="wallet-actions">
-            <button class="abtn abtn-y" onclick="admGo('transfer')"> Transfer Funds</button>
-            <button class="abtn abtn-gh" onclick="admGo('transactions')"> View Transactions</button>
+            <button class="abtn abtn-y" onclick="admGo('transfer')">💸 Transfer Funds</button>
+            <button class="abtn abtn-gh" onclick="admGo('transactions')">📋 View Transactions</button>
           </div>
         </div>
         <!-- Currency Converter -->
@@ -348,24 +348,24 @@
   </div>
   <!-- Desktop links -->
   <ul class="n-links" id="desktop-nav-links">
-    <li><a class="n-link-item" onclick="scrollToHome()"> Home</a></li>
+    <li><a class="n-link-item" onclick="scrollToHome()">🏠 Home</a></li>
     <li><a class="n-link-item" onclick="openAbout()">👤 About Us</a></li>
     <li class="n-link-dropdown">
-      <a class="n-link-item n-link-phases"> Phases ▾</a>
+      <a class="n-link-item n-link-phases">📚 Phases ▾</a>
       <div class="n-dropdown">
-        <a onclick="switchPhase('grow')"> Phase 1 — Grow <span class="n-dd-badge free">Free</span></a>
-        <a onclick="switchPhase('multiply')"> Phase 2 — Multiply <span class="n-dd-badge paid">Premium</span></a>
-        <a onclick="switchPhase('succeed')"> Phase 3 — Succeed <span class="n-dd-badge paid">Premium</span></a>
-        <a onclick="switchPhase('legacy')"> Phase 4 — Legacy <span class="n-dd-badge paid">Premium</span></a>
+        <a onclick="switchPhase('grow')">🌱 Phase 1 — Grow <span class="n-dd-badge free">Free</span></a>
+        <a onclick="switchPhase('multiply')">📈 Phase 2 — Multiply <span class="n-dd-badge paid">Premium</span></a>
+        <a onclick="switchPhase('succeed')">🏆 Phase 3 — Succeed <span class="n-dd-badge paid">Premium</span></a>
+        <a onclick="switchPhase('legacy')">🌳 Phase 4 — Legacy <span class="n-dd-badge paid">Premium</span></a>
       </div>
     </li>
-    <li><a class="n-link-item" onclick="ss('#pricing')"> Pricing</a></li>
-    <li><a class="n-link-item" onclick="openFeedback()"> Feedback</a></li>
+    <li><a class="n-link-item" onclick="ss('#pricing')">💰 Pricing</a></li>
+    <li><a class="n-link-item" onclick="openFeedback()">💬 Feedback</a></li>
   </ul>
   <!-- Right side -->
   <div class="n-right">
     <span class="n-user">Hi, <span id="nav-uname">User</span></span>
-    <span class="n-premium" id="nav-premium" style="display:none;"> INSIDER</span>
+    <span class="n-premium" id="nav-premium" style="display:none;">⭐ INSIDER</span>
     <button class="btn-lo" onclick="logout()">Logout</button>
     <!-- Mobile hamburger -->
     <button class="n-mob-menu" onclick="toggleMobNav()" id="mob-menu-btn">☰</button>
@@ -378,15 +378,15 @@
       <span style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--green);">GMS Platform</span>
       <button onclick="toggleMobNav()" style="background:none;border:none;font-size:1.3rem;cursor:pointer;color:var(--gray);">✕</button>
     </div>
-    <a class="mob-nav-link" onclick="scrollToHome();toggleMobNav()"> Home</a>
+    <a class="mob-nav-link" onclick="scrollToHome();toggleMobNav()">🏠 Home</a>
     <a class="mob-nav-link" onclick="openAbout();toggleMobNav()">👤 About Us</a>
     <div class="mob-nav-section">📚 Phases</div>
-    <a class="mob-nav-link mob-nav-sub" onclick="switchPhase('grow');toggleMobNav()"> Phase 1 — Grow <span class="n-dd-badge free" style="margin-left:.3rem;">Free</span></a>
-    <a class="mob-nav-link mob-nav-sub" onclick="switchPhase('multiply');toggleMobNav()"> Phase 2 — Multiply <span class="n-dd-badge paid" style="margin-left:.3rem;">Premium</span></a>
-    <a class="mob-nav-link mob-nav-sub" onclick="switchPhase('succeed');toggleMobNav()"> Phase 3 — Succeed <span class="n-dd-badge paid" style="margin-left:.3rem;">Premium</span></a>
-    <a class="mob-nav-link mob-nav-sub" onclick="switchPhase('legacy');toggleMobNav()"> Phase 4 — Legacy <span class="n-dd-badge paid" style="margin-left:.3rem;">Premium</span></a>
-    <a class="mob-nav-link" onclick="ss('#pricing');toggleMobNav()"> Pricing</a>
-    <a class="mob-nav-link" onclick="openFeedback();toggleMobNav()"> Feedback</a>
+    <a class="mob-nav-link mob-nav-sub" onclick="switchPhase('grow');toggleMobNav()">🌱 Phase 1 — Grow <span class="n-dd-badge free" style="margin-left:.3rem;">Free</span></a>
+    <a class="mob-nav-link mob-nav-sub" onclick="switchPhase('multiply');toggleMobNav()">📈 Phase 2 — Multiply <span class="n-dd-badge paid" style="margin-left:.3rem;">Premium</span></a>
+    <a class="mob-nav-link mob-nav-sub" onclick="switchPhase('succeed');toggleMobNav()">🏆 Phase 3 — Succeed <span class="n-dd-badge paid" style="margin-left:.3rem;">Premium</span></a>
+    <a class="mob-nav-link mob-nav-sub" onclick="switchPhase('legacy');toggleMobNav()">🌳 Phase 4 — Legacy <span class="n-dd-badge paid" style="margin-left:.3rem;">Premium</span></a>
+    <a class="mob-nav-link" onclick="ss('#pricing');toggleMobNav()">💰 Pricing</a>
+    <a class="mob-nav-link" onclick="openFeedback();toggleMobNav()">💬 Feedback</a>
     <div style="padding:1rem;border-top:1px solid #f1f5f9;margin-top:.5rem;">
       <button class="btn-auth" onclick="logout()" style="background:var(--red);margin:0;">Logout</button>
     </div>
@@ -397,10 +397,10 @@
 <!-- PHASE NAV BAR -->
 <div id="phase-nav-bar">
   <span style="font-weight:700;font-size:.8rem;color:var(--gray);letter-spacing:.04em;text-transform:uppercase;flex-shrink:0;">Phases:</span>
-  <button class="phase-nav-btn pnb-1" onclick="openPhase('grow')"> Phase 1 — Grow</button>
-  <button class="phase-nav-btn pnb-2" onclick="openPhase('multiply')"> Phase 2 — Multiply</button>
-  <button class="phase-nav-btn pnb-3" onclick="openPhase('succeed')"> Phase 3 — Succeed</button>
-  <button class="phase-nav-btn pnb-4" onclick="openPhase('legacy')"> Phase 4 — Legacy</button>
+  <button class="phase-nav-btn pnb-1" onclick="openPhase('grow')">🌱 Phase 1 — Grow</button>
+  <button class="phase-nav-btn pnb-2" onclick="openPhase('multiply')">📈 Phase 2 — Multiply</button>
+  <button class="phase-nav-btn pnb-3" onclick="openPhase('succeed')">🏆 Phase 3 — Succeed</button>
+  <button class="phase-nav-btn pnb-4" onclick="openPhase('legacy')">🌳 Phase 4 — Legacy</button>
   <div style="flex:1;"></div>
   <button style="background:transparent;border:none;color:var(--green);font-weight:700;font-size:.83rem;cursor:pointer;font-family:inherit;flex-shrink:0;" onclick="openAbout()">About Us</button>
 </div>
@@ -436,14 +436,14 @@
     <h2 class="st">Track Your <span>Financial Journey</span></h2>
     <div class="d-grid" style="margin-top:1.8rem;">
       <div class="d-sidebar">
-        <div class="pc"><h4> Grow Phase</h4><div class="pb-w"><div class="pb" id="grow-bar" style="width:40%"></div></div><div class="pp" id="grow-pct">40% Complete</div><button onclick="openPhase('grow')" style="display:block;width:100%;margin-top:.7rem;background:var(--green);color:#fff;border:none;padding:.55rem;border-radius:50px;font-weight:700;font-size:.82rem;cursor:pointer;font-family:inherit;">📖 View Phase Dashboard →</button></div>
-        <div class="pc"><h4> Multiply Phase</h4><div class="pb-w"><div class="pb" id="mul-bar" style="width:0%;background:var(--gold)"></div></div><div class="pp" id="mul-pct">Locked</div><div class="lk-msg" id="mul-lk">🔒 Complete Grow to 80%</div><button onclick="openPhase('multiply')" style="display:block;width:100%;margin-top:.7rem;background:var(--gold);color:var(--ch);border:none;padding:.55rem;border-radius:50px;font-weight:700;font-size:.82rem;cursor:pointer;font-family:inherit;">📖 View Phase Dashboard →</button></div>
-        <div class="pc"><h4> Succeed Phase</h4><div class="pb-w"><div class="pb" id="suc-bar" style="width:0%;background:var(--gd)"></div></div><div class="pp" id="suc-pct">Locked</div><div class="lk-msg" id="suc-lk">🔒 Requires Vault unlock</div>
+        <div class="pc"><h4>🌱 Grow Phase</h4><div class="pb-w"><div class="pb" id="grow-bar" style="width:40%"></div></div><div class="pp" id="grow-pct">40% Complete</div><button onclick="openPhase('grow')" style="display:block;width:100%;margin-top:.7rem;background:var(--green);color:#fff;border:none;padding:.55rem;border-radius:50px;font-weight:700;font-size:.82rem;cursor:pointer;font-family:inherit;">📖 View Phase Dashboard →</button></div>
+        <div class="pc"><h4>📈 Multiply Phase</h4><div class="pb-w"><div class="pb" id="mul-bar" style="width:0%;background:var(--gold)"></div></div><div class="pp" id="mul-pct">Locked</div><div class="lk-msg" id="mul-lk">🔒 Complete Grow to 80%</div><button onclick="openPhase('multiply')" style="display:block;width:100%;margin-top:.7rem;background:var(--gold);color:var(--ch);border:none;padding:.55rem;border-radius:50px;font-weight:700;font-size:.82rem;cursor:pointer;font-family:inherit;">📖 View Phase Dashboard →</button></div>
+        <div class="pc"><h4>🏆 Succeed Phase</h4><div class="pb-w"><div class="pb" id="suc-bar" style="width:0%;background:var(--gd)"></div></div><div class="pp" id="suc-pct">Locked</div><div class="lk-msg" id="suc-lk">🔒 Requires Vault unlock</div>
           <button onclick="openPhase('succeed')" style="display:block;width:100%;margin-top:.7rem;background:var(--gd);color:#fff;border:none;padding:.55rem;border-radius:50px;font-weight:700;font-size:.82rem;cursor:pointer;font-family:inherit;">📖 View Phase Dashboard →</button>
           <button class="ulk-btn" id="ulk-btn" onclick="openPay()">🔐 Unlock The Vault — $7.65</button>
           <div class="ins-badge" id="ins-badge" style="display:none;">⭐ INSIDER — Full Access</div>
         </div>
-        <div class="pc"><h4> Legacy Phase</h4><div class="pb-w"><div class="pb" id="leg-bar" style="width:0%;background:linear-gradient(90deg,#6b3fa0,#9b59b6)"></div></div><div class="pp" id="leg-pct">Locked</div><div class="lk-msg">🔒 Requires Vault unlock</div><button onclick="openPhase('legacy')" style="display:block;width:100%;margin-top:.7rem;background:linear-gradient(135deg,#3b1f5e,#6b3fa0);color:#fff;border:none;padding:.55rem;border-radius:50px;font-weight:700;font-size:.82rem;cursor:pointer;font-family:inherit;">📖 View Phase Dashboard →</button></div>
+        <div class="pc"><h4>🌳 Legacy Phase</h4><div class="pb-w"><div class="pb" id="leg-bar" style="width:0%;background:linear-gradient(90deg,#6b3fa0,#9b59b6)"></div></div><div class="pp" id="leg-pct">Locked</div><div class="lk-msg">🔒 Requires Vault unlock</div><button onclick="openPhase('legacy')" style="display:block;width:100%;margin-top:.7rem;background:linear-gradient(135deg,#3b1f5e,#6b3fa0);color:#fff;border:none;padding:.55rem;border-radius:50px;font-weight:700;font-size:.82rem;cursor:pointer;font-family:inherit;">📖 View Phase Dashboard →</button></div>
       </div>
       <div>
         <div style="background:var(--cream);border-radius:18px;padding:1.8rem;border:1px solid rgba(0,0,0,.06);margin-bottom:1.3rem;">
@@ -452,7 +452,7 @@
           <button class="btn-p" style="font-size:.87rem;padding:.65rem 1.4rem;" onclick="openTopic('scams')">Start Lesson →</button>
         </div>
         <div style="background:var(--cream);border-radius:18px;padding:1.8rem;border:1px solid rgba(0,0,0,.06);">
-          <h3 style="font-family:'Playfair Display',serif;margin-bottom:.9rem;"> Opportunities Near You</h3>
+          <h3 style="font-family:'Playfair Display',serif;margin-bottom:.9rem;">📍 Opportunities Near You</h3>
           <div style="display:flex;flex-direction:column;gap:.7rem;">
             <div style="display:flex;align-items:center;gap:.7rem;padding:.75rem;background:#fff;border-radius:12px;cursor:pointer;border:1px solid rgba(0,0,0,.04);" onclick="toast('Airtel Money now offers 8% annual interest on savings accounts','ok')"><span>🇿🇲</span><div><div style="font-weight:600;font-size:.88rem;">New Airtel Money Interest Rate on Savings</div><div style="font-size:.76rem;color:var(--gray);">2h ago</div></div></div>
             <div style="display:flex;align-items:center;gap:.7rem;padding:.75rem;background:#fff;border-radius:12px;cursor:pointer;border:1px solid rgba(0,0,0,.04);" onclick="toast('Top 3 remote skills: Data Entry, Customer Support, Social Media','ok')"><span>💼</span><div><div style="font-weight:600;font-size:.88rem;">Remote Work Skills: Top 3 in Demand</div><div style="font-size:.76rem;color:var(--gray);">1d ago</div></div></div>
@@ -471,7 +471,7 @@
     <p class="ss">A structured, personalized journey based on your age, country, and financial goals.</p>
     <div class="fw-grid">
       <div class="fw-card fc-grow">
-        <span class="fw-icon"></span><div class="fw-lbl">Phase 1 — Always Free</div>
+        <span class="fw-icon">🌱</span><div class="fw-lbl">Phase 1 — Always Free</div>
         <h3 class="fw-title">Grow</h3>
         <p class="fw-desc">Build your financial foundation — the fundamentals 80% of people never learn.</p>
         <div class="fw-tags">
@@ -482,7 +482,7 @@
         </div>
       </div>
       <div class="fw-card fc-mul">
-        <span class="fw-icon"></span><div class="fw-lbl">Phase 2 — Premium Only</div>
+        <span class="fw-icon">📈</span><div class="fw-lbl">Phase 2 — Premium Only</div>
         <h3 class="fw-title">Multiply</h3>
         <p class="fw-desc">Make your money work harder — investments, side hustles, financial products.</p>
         <div class="fw-tags">
@@ -493,7 +493,7 @@
         </div>
       </div>
       <div class="fw-card fc-suc">
-        <span class="fw-icon"></span><div class="fw-lbl">Phase 3 — Premium Only</div>
+        <span class="fw-icon">🏆</span><div class="fw-lbl">Phase 3 — Premium Only</div>
         <h3 class="fw-title">Succeed</h3>
         <p class="fw-desc">Build lasting prosperity and create wealth that outlives you.</p>
         <div class="fw-tags">
@@ -503,7 +503,7 @@
         </div>
       </div>
       <div class="fw-card" style="background:#fff;border:1px solid rgba(0,0,0,.06);position:relative;overflow:hidden;border-radius:22px;padding:2.2rem 1.8rem;transition:transform .28s,box-shadow .28s;"><div style="position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#6b3fa0,#9b59b6);"></div>
-        <span class="fw-icon"></span><div class="fw-lbl" style="color:var(--gray);">Phase 4 — Premium Only</div>
+        <span class="fw-icon">🌳</span><div class="fw-lbl" style="color:var(--gray);">Phase 4 — Premium Only</div>
         <h3 class="fw-title" style="color:#6b3fa0;">Legacy</h3>
         <p class="fw-desc">Build generational wealth and a family name that outlives you by centuries.</p>
         <div class="fw-tags">
@@ -590,7 +590,7 @@
 
 
 
-<!-- ORLD LEADERS CAROUSEL -->
+<!-- WORLD LEADERS CAROUSEL -->
 <div id="leaders-section">
   <div class="leaders-header">
     <span class="sbdg">Wisdom From The World's Greatest</span>
@@ -852,7 +852,7 @@
 <!-- ===================== ABOUT US PAGE ===================== -->
 <div id="about-page">
   <div class="about-page-nav">
-    <div class="about-page-nav-title"> GMS Platform — About Us</div>
+    <div class="about-page-nav-title">🌍 GMS Platform — About Us</div>
     <button class="about-page-close" onclick="closeAbout()">← Back</button>
   </div>
   <div class="about-page-body">
@@ -866,7 +866,7 @@
         </div>
         <div class="ap-founder-text">
           <h1>Kelvin Mbao</h1>
-          <div class="ap-role"> Founder &amp; CEO · GMS Platform · Zambia</div>
+          <div class="ap-role">🇿🇲 Founder &amp; CEO · GMS Platform · Zambia</div>
           <p>A passionate advocate for financial freedom across Africa, Kelvin built GMS Platform with a single, urgent conviction: every African deserves access to the financial knowledge that creates generational wealth — regardless of their background, income level, or formal education. Born and raised in Zambia, Kelvin witnessed first-hand how brilliant, hardworking people spent their entire lives financially vulnerable — not from lack of effort, but from lack of knowledge.</p>
           <div class="ap-quote"><p>"The problem was never effort. The problem was knowledge — specifically, the financial knowledge that wealthy families quietly pass down and the rest of us were never given. GMS is my attempt to close that gap permanently for every African who wants it."</p></div>
         </div>
@@ -874,10 +874,10 @@
     </div>
 
     <!-- MISSION & VISION -->
-    <h2 class="ap-section-title"> Our Mission &amp; Vision</h2>
+    <h2 class="ap-section-title">🎯 Our Mission &amp; Vision</h2>
     <div class="ap-mv-grid">
       <div class="ap-mv-card ap-mission">
-        <span class="ap-mv-icon"></span>
+        <span class="ap-mv-icon">🌱</span>
         <h3>Our Mission</h3>
         <p>To make world-class financial literacy accessible and affordable to every African — empowering individuals to grow their income, multiply their wealth, and build legacies that outlast them. We believe financial education is not a luxury reserved for the privileged. It is a right that belongs to every African family, regardless of income or location.</p>
       </div>
@@ -889,21 +889,21 @@
     </div>
 
     <!-- CORE VALUES -->
-    <h2 class="ap-section-title"> Our Core Values</h2>
+    <h2 class="ap-section-title">💎 Our Core Values</h2>
     <div class="ap-values">
-      <div class="ap-val"><div class="ap-val-icon"></div><div class="ap-val-name">Africa First</div><div class="ap-val-desc">Every lesson, tool, and strategy is built for African realities — our currencies, institutions, mobile money systems, and culture.</div></div>
-      <div class="ap-val"><div class="ap-val-icon"></div><div class="ap-val-name">Accessible</div><div class="ap-val-desc">Financial literacy must never be locked behind expensive courses or elite networks. We keep it affordable by design — always.</div></div>
-      <div class="ap-val"><div class="ap-val-icon"></div><div class="ap-val-name">Excellence</div><div class="ap-val-desc">We deliver only verified, accurate, and actionable knowledge — never theoretical advice copied from foreign markets.</div></div>
-      <div class="ap-val"><div class="ap-val-icon"></div><div class="ap-val-name">Integrity</div><div class="ap-val-desc">We never promote get-rich-quick schemes or unregulated investments. Everything we teach is legal, verifiable, and proven in Africa.</div></div>
-      <div class="ap-val"><div class="ap-val-icon"></div><div class="ap-val-name">Practicality</div><div class="ap-val-desc">Theory is useless without action. Every GMS lesson ends with a concrete next step achievable today, with resources already available.</div></div>
-      <div class="ap-val"><div class="ap-val-icon"></div><div class="ap-val-name">Community</div><div class="ap-val-desc">Wealth built in isolation is fragile. We build communities of financially literate Africans who support and elevate each other.</div></div>
-      <div class="ap-val"><div class="ap-val-icon"></div><div class="ap-val-name">Legacy</div><div class="ap-val-desc">Our success is measured by how many African families permanently change their financial trajectory through what they learn here.</div></div>
-      <div class="ap-val"><div class="ap-val-icon"></div><div class="ap-val-name">Impact</div><div class="ap-val-desc">We measure impact by changed lives, not page views. Every feature we build must create measurable financial improvement.</div></div>
-      <div class="ap-val"><div class="ap-val-icon"></div><div class="ap-val-name">Growth</div><div class="ap-val-desc">We believe in constant learning — for our users and for ourselves. GMS evolves continuously with Africa's financial landscape.</div></div>
+      <div class="ap-val"><div class="ap-val-icon">🌍</div><div class="ap-val-name">Africa First</div><div class="ap-val-desc">Every lesson, tool, and strategy is built for African realities — our currencies, institutions, mobile money systems, and culture.</div></div>
+      <div class="ap-val"><div class="ap-val-icon">🔓</div><div class="ap-val-name">Accessible</div><div class="ap-val-desc">Financial literacy must never be locked behind expensive courses or elite networks. We keep it affordable by design — always.</div></div>
+      <div class="ap-val"><div class="ap-val-icon">🏆</div><div class="ap-val-name">Excellence</div><div class="ap-val-desc">We deliver only verified, accurate, and actionable knowledge — never theoretical advice copied from foreign markets.</div></div>
+      <div class="ap-val"><div class="ap-val-icon">🔒</div><div class="ap-val-name">Integrity</div><div class="ap-val-desc">We never promote get-rich-quick schemes or unregulated investments. Everything we teach is legal, verifiable, and proven in Africa.</div></div>
+      <div class="ap-val"><div class="ap-val-icon">📈</div><div class="ap-val-name">Practicality</div><div class="ap-val-desc">Theory is useless without action. Every GMS lesson ends with a concrete next step achievable today, with resources already available.</div></div>
+      <div class="ap-val"><div class="ap-val-icon">🤝</div><div class="ap-val-name">Community</div><div class="ap-val-desc">Wealth built in isolation is fragile. We build communities of financially literate Africans who support and elevate each other.</div></div>
+      <div class="ap-val"><div class="ap-val-icon">🌳</div><div class="ap-val-name">Legacy</div><div class="ap-val-desc">Our success is measured by how many African families permanently change their financial trajectory through what they learn here.</div></div>
+      <div class="ap-val"><div class="ap-val-icon">⚡</div><div class="ap-val-name">Impact</div><div class="ap-val-desc">We measure impact by changed lives, not page views. Every feature we build must create measurable financial improvement.</div></div>
+      <div class="ap-val"><div class="ap-val-icon">🌱</div><div class="ap-val-name">Growth</div><div class="ap-val-desc">We believe in constant learning — for our users and for ourselves. GMS evolves continuously with Africa's financial landscape.</div></div>
     </div>
 
     <!-- GMS STORY -->
-    <h2 class="ap-section-title"> The Story Behind GMS</h2>
+    <h2 class="ap-section-title">📖 The Story Behind GMS</h2>
     <div class="ap-story">
       <p>GMS Platform was born from a personal observation that Kelvin Mbao made growing up in Zambia: brilliant, hard-working people earning decent salaries were still financially vulnerable — not because they lacked ambition, but because they had never been taught the fundamentals of money.</p>
       <p>The education system teaches mathematics but not budgeting. It teaches history but not how compound interest works. It produces graduates who can analyse complex subjects but cannot explain the difference between an asset and a liability. This gap — between formal education and financial education — is the single biggest driver of generational poverty in Africa.</p>
@@ -987,35 +987,35 @@
 <!-- ===================== PHASE 1: GROW DASHBOARD ===================== -->
 <div id="phase-grow" class="phase-page ph-grow">
   <div class="ph-nav">
-    <div class="ph-nav-title"> Phase 1 — Grow</div>
+    <div class="ph-nav-title">🌱 Phase 1 — Grow</div>
     <button class="ph-close" onclick="closePhase('grow');ss('#dash')">← Back to Dashboard</button>
   </div>
   <div class="ph-body">
     <div id="phase-nav-row">
   <div class="pnr-inner">
     <button class="pnr-btn pnr-grow" onclick="switchPhase('grow')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🌱</span>
       <span class="pnr-btn-num">Phase 1</span>
       <span class="pnr-btn-name">Grow</span>
       <span class="pnr-btn-tag">Free</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-multiply" onclick="switchPhase('multiply')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">📈</span>
       <span class="pnr-btn-num">Phase 2</span>
       <span class="pnr-btn-name">Multiply</span>
       <span class="pnr-btn-tag">Premium</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-succeed" onclick="switchPhase('succeed')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🏆</span>
       <span class="pnr-btn-num">Phase 3</span>
       <span class="pnr-btn-name">Succeed</span>
       <span class="pnr-btn-tag">Premium</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-legacy" onclick="switchPhase('legacy')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🌳</span>
       <span class="pnr-btn-num">Phase 4</span>
       <span class="pnr-btn-name">Legacy</span>
       <span class="pnr-btn-tag">Premium</span>
@@ -1117,28 +1117,28 @@
     <div id="phase-nav-row">
   <div class="pnr-inner">
     <button class="pnr-btn pnr-grow" onclick="switchPhase('grow')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🌱</span>
       <span class="pnr-btn-num">Phase 1</span>
       <span class="pnr-btn-name">Grow</span>
       <span class="pnr-btn-tag">Free</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-multiply" onclick="switchPhase('multiply')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">📈</span>
       <span class="pnr-btn-num">Phase 2</span>
       <span class="pnr-btn-name">Multiply</span>
       <span class="pnr-btn-tag">Premium</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-succeed" onclick="switchPhase('succeed')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🏆</span>
       <span class="pnr-btn-num">Phase 3</span>
       <span class="pnr-btn-name">Succeed</span>
       <span class="pnr-btn-tag">Premium</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-legacy" onclick="switchPhase('legacy')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🌳</span>
       <span class="pnr-btn-num">Phase 4</span>
       <span class="pnr-btn-name">Legacy</span>
       <span class="pnr-btn-tag">Premium</span>
@@ -1228,35 +1228,35 @@
 <!-- ===================== PHASE 3: SUCCEED DASHBOARD ===================== -->
 <div id="phase-succeed" class="phase-page ph-succeed">
   <div class="ph-nav">
-    <div class="ph-nav-title"> Phase 3 — Succeed</div>
+    <div class="ph-nav-title">🏆 Phase 3 — Succeed</div>
     <button class="ph-close" onclick="closePhase('succeed');ss('#dash')">← Back to Dashboard</button>
   </div>
   <div class="ph-body">
     <div id="phase-nav-row">
   <div class="pnr-inner">
     <button class="pnr-btn pnr-grow" onclick="switchPhase('grow')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🌱</span>
       <span class="pnr-btn-num">Phase 1</span>
       <span class="pnr-btn-name">Grow</span>
       <span class="pnr-btn-tag">Free</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-multiply" onclick="switchPhase('multiply')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">📈</span>
       <span class="pnr-btn-num">Phase 2</span>
       <span class="pnr-btn-name">Multiply</span>
       <span class="pnr-btn-tag">Premium</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-succeed" onclick="switchPhase('succeed')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🏆</span>
       <span class="pnr-btn-num">Phase 3</span>
       <span class="pnr-btn-name">Succeed</span>
       <span class="pnr-btn-tag">Premium</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-legacy" onclick="switchPhase('legacy')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🌳</span>
       <span class="pnr-btn-num">Phase 4</span>
       <span class="pnr-btn-name">Legacy</span>
       <span class="pnr-btn-tag">Premium</span>
@@ -1344,35 +1344,35 @@
 <!-- ===================== PHASE 4: LEGACY DASHBOARD ===================== -->
 <div id="phase-legacy" class="phase-page ph-legacy">
   <div class="ph-nav">
-    <div class="ph-nav-title"> Phase 4 — Legacy</div>
+    <div class="ph-nav-title">🌳 Phase 4 — Legacy</div>
     <button class="ph-close" onclick="closePhase('legacy');ss('#dash')">← Back to Dashboard</button>
   </div>
   <div class="ph-body">
     <div id="phase-nav-row">
   <div class="pnr-inner">
     <button class="pnr-btn pnr-grow" onclick="switchPhase('grow')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🌱</span>
       <span class="pnr-btn-num">Phase 1</span>
       <span class="pnr-btn-name">Grow</span>
       <span class="pnr-btn-tag">Free</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-multiply" onclick="switchPhase('multiply')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">📈</span>
       <span class="pnr-btn-num">Phase 2</span>
       <span class="pnr-btn-name">Multiply</span>
       <span class="pnr-btn-tag">Premium</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-succeed" onclick="switchPhase('succeed')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🏆</span>
       <span class="pnr-btn-num">Phase 3</span>
       <span class="pnr-btn-name">Succeed</span>
       <span class="pnr-btn-tag">Premium</span>
     </button>
     <div class="pnr-divider"></div>
     <button class="pnr-btn pnr-legacy" onclick="switchPhase('legacy')">
-      <span class="pnr-btn-icon"></span>
+      <span class="pnr-btn-icon">🌳</span>
       <span class="pnr-btn-num">Phase 4</span>
       <span class="pnr-btn-name">Legacy</span>
       <span class="pnr-btn-tag">Premium</span>
@@ -1395,7 +1395,7 @@
       <div class="ph-stat"><div class="ph-stat-n">35 min</div><div class="ph-stat-l">Total Read Time</div></div>
     </div>
     <div class="ph-section">
-      <h2> What Generational Wealth Actually Means in Africa</h2>
+      <h2>🏰 What Generational Wealth Actually Means in Africa</h2>
       <p>In the Western world, generational wealth is mostly about stock portfolios and trust funds. In Africa, it is much richer than that. Generational wealth here is land that feeds families for centuries. It is a family business that employs three generations. It is an education tradition that produces doctors, engineers, and leaders every generation. It is a name that opens doors before you speak a word.</p>
       <p>The Legacy Phase integrates modern financial tools with deep African values around community, family, land, and long-term thinking. This is not about becoming wealthy. This is about becoming the ancestor your descendants will honor.</p>
       <div class="ph-tip"><p><strong>The African Legacy Paradox:</strong> Africa has the youngest population on earth. This means the decisions you make about wealth today will compound for longer than anywhere else in the world. The Legacy Phase helps you build systems worthy of that opportunity.</p></div>
@@ -1405,7 +1405,7 @@
       <div id="ph-leg-topics"></div>
     </div>
     <div class="ph-section">
-      <h2> The Five Pillars of African Legacy Wealth</h2>
+      <h2>🌱 The Five Pillars of African Legacy Wealth</h2>
       <ul>
         <li><strong style="color:var(--gold2);">Land:</strong> Buy land in growth corridors now. In 20 years it will be the most valuable thing you own. Plots near Lusaka, Nairobi, Lagos, and Accra that cost $3,000 today will be worth $50,000+.</li>
         <li><strong style="color:var(--gold2);">Business equity:</strong> Build a business with systems that do not depend on you. A business you can walk away from for a year and still runs — that is a legacy asset.</li>
@@ -1522,12 +1522,12 @@
     <!-- MISSION & VISION -->
     <div class="about-mv-grid">
       <div class="about-mv-card mission">
-        <span class="about-mv-icon"></span>
+        <span class="about-mv-icon">🎯</span>
         <h3>Our Mission</h3>
         <p>To democratise financial literacy across Africa — providing every person, regardless of income, education, or location, with the knowledge, tools, and community to build real, lasting financial freedom. We believe that one powerful idea, applied consistently, can change a family's trajectory for generations.</p>
       </div>
       <div class="about-mv-card vision">
-        <span class="about-mv-icon"></span>
+        <span class="about-mv-icon">🌍</span>
         <h3>Our Vision</h3>
         <p>A continent where every African understands money deeply enough to grow it, protect it, and pass it on. Where the generational poverty cycle is broken not by luck or circumstance, but by knowledge and action. GMS Platform exists to be the educational infrastructure that makes that vision inevitable.</p>
       </div>
@@ -1537,12 +1537,12 @@
     <div class="about-values">
       <h2>What We Stand For</h2>
       <div class="about-val-grid">
-        <div class="about-val-item"><div class="about-val-icon"></div><div class="about-val-title">Accessibility</div><div class="about-val-desc">Financial education must be affordable. Our Grow Phase is permanently free. The Vault is priced at what one bad financial decision costs — not what traditional courses charge.</div></div>
-        <div class="about-val-item"><div class="about-val-icon"></div><div class="about-val-title">African Context</div><div class="about-val-desc">No imported, irrelevant advice. Every strategy, every example, every number in GMS is built specifically for Zambia, Kenya, Nigeria, Ghana, and the broader African economic reality.</div></div>
-        <div class="about-val-item"><div class="about-val-icon"></div><div class="about-val-title">Integrity</div><div class="about-val-desc">We never promote get-rich-quick schemes, risky speculation, or unregulated investments. Everything we teach is verifiable, legal, and proven to work in African markets.</div></div>
-        <div class="about-val-item"><div class="about-val-icon"></div><div class="about-val-title">Practicality</div><div class="about-val-desc">Theory is useless without action. Every GMS lesson ends with a concrete next step the user can take today, with the resources they already have.</div></div>
-        <div class="about-val-item"><div class="about-val-icon"></div><div class="about-val-title">Community</div><div class="about-val-desc">Wealth built in isolation is fragile. We build communities of financially literate Africans who support, challenge, and elevate each other toward shared prosperity.</div></div>
-        <div class="about-val-item"><div class="about-val-icon"></div><div class="about-val-title">Legacy</div><div class="about-val-desc">Our measure of success is not how many users we have — it is how many families across Africa permanently change their financial trajectory because of what they learned here.</div></div>
+        <div class="about-val-item"><div class="about-val-icon">🌱</div><div class="about-val-title">Accessibility</div><div class="about-val-desc">Financial education must be affordable. Our Grow Phase is permanently free. The Vault is priced at what one bad financial decision costs — not what traditional courses charge.</div></div>
+        <div class="about-val-item"><div class="about-val-icon">🌍</div><div class="about-val-title">African Context</div><div class="about-val-desc">No imported, irrelevant advice. Every strategy, every example, every number in GMS is built specifically for Zambia, Kenya, Nigeria, Ghana, and the broader African economic reality.</div></div>
+        <div class="about-val-item"><div class="about-val-icon">🔒</div><div class="about-val-title">Integrity</div><div class="about-val-desc">We never promote get-rich-quick schemes, risky speculation, or unregulated investments. Everything we teach is verifiable, legal, and proven to work in African markets.</div></div>
+        <div class="about-val-item"><div class="about-val-icon">📈</div><div class="about-val-title">Practicality</div><div class="about-val-desc">Theory is useless without action. Every GMS lesson ends with a concrete next step the user can take today, with the resources they already have.</div></div>
+        <div class="about-val-item"><div class="about-val-icon">🤝</div><div class="about-val-title">Community</div><div class="about-val-desc">Wealth built in isolation is fragile. We build communities of financially literate Africans who support, challenge, and elevate each other toward shared prosperity.</div></div>
+        <div class="about-val-item"><div class="about-val-icon">🌳</div><div class="about-val-title">Legacy</div><div class="about-val-desc">Our measure of success is not how many users we have — it is how many families across Africa permanently change their financial trajectory because of what they learned here.</div></div>
       </div>
     </div>
 
@@ -1569,6 +1569,6 @@
 
 <div class="toast" id="toast-el"></div>
 
-<script src="script.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
